@@ -1,1 +1,11 @@
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <bag report id>#001</bag report id>
+    <summary>There is no possibility to export data from requirements written in Cyrillic from confluence to PDF format</summary>
+    <discription>By trying export text to PDF written by kirrilitca, the sistem have a mistake and save only english text.</discription>
+    <reproduce>1. Opening proect Drezna Documentation 2.Open requairment #1 (RQ-001) 3. Export the document to PDF file</reproduce>
+    <actual result>The document don't have value in kirillitca</actual result>
+    <expectet result>1. Opening proect Drezna Documentation 2. Open requairment #1 (RQ-001) 3. Export the document to PDF file 4. PDF file had correct value in kirilitca</expectet result>
+    <environment>windows 11 google chrome version 101.0.4951.67</environment>
+    <priority>medium</priority>
+</root>
